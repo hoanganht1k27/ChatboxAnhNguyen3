@@ -1,0 +1,72 @@
+/*reset css
+*/
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.main_contain{
+	background-color: #F1F3F4;
+    width: 860px;
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+.main_contain h3{
+	color: white;
+	background-color: red;
+	width: 40px; 
+}
+.image{
+	width: 100%;
+}
+.link_hinh{
+	display: block;
+	margin-bottom: 10px;
+}
+.link_new{
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: bold;
+    color: black;
+    display: block;
+    margin: 10px;
+}
+.main_contain h1{
+	color: blue;
+	background: yellow;
+}
+a.link_new:hover{
+	font-weight: normal;
+	color: red;
+}
+article.tin{
+	padding: 10px;
+	overflow: hidden;
+}
+div.minor_contain{
+	margin-top: 50px;
+	width: 250px;
+	margin-right: 44px;
+	float: left;
+}
+a.link_hinh_2{
+	width: 10%;
+}
+a.link_new_2{
+	width: 100%;
+}
+div.tieu_de{
+	color: red;
+	background-color: white;
+	border-bottom: 3px red solid;
+	margin-top: 20px;
+}
+.video_you_tube{
+	margin-top: 20px;
+    text-align: center;
+}
+.minor_contain_2{
+	margin-top: 50px;
+	width: 250px;
+	float: left;
+}

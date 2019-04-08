@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+div#wrapper {
+    background: #c4c4da;
+    border-radius: 4px;
+    padding: 10px;
+    width: 60%;
+    margin: 100px auto;
+}
+
+p.welcome {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+
+p.logout {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+
+div#menu {
+    position: relative;
+    height: 50px;
+}
+div#chatbox{
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 100px;
+    overflow: scroll;
+}
+#message{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+}
+#message #usermsg{
+    display: block;
+    float: left;
+    height: 30px;
+    width: 82%;
+}
+#message #submitmsg{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: green;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 10%;
+}
+#message #submitmsg:hover{
+    background-color: blue;
+}
+#message #filemsg{
+    display: none;
+}
+label#labelmsg {
+    display: block;
+    /* width: 15%; */
+    height: 30px;
+    font-size: 10px;
+    background-color: yellow;
+    margin-left: 10px;
+    float: left;
+    padding: 3px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    line-height: 24px;
+}
+#loginform{
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+    margin: 100px auto;
+    border-radius: 3px;
+    padding: 10px;
+}
